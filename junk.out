@@ -1,0 +1,190 @@
+BBCIncrementalEnrollerX.py : generating enrolment files for subjects in  workingSheets/data/BBC3101VideoTechnology2017.xls
+processXLS: start spreadsheet workingSheets/data/BBC3101VideoTechnology2017.xls
+[u'2018 Blackboard Classrooms for Department: 3101 - VIDEO TECHNOLOGY', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '2018 Blackboard Classrooms for Department: 3101 - VIDEO TECHNOLOGY' ''
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'BB Classroom', u'Migrate Classroom', u'ITS Subject', u'', u'ITS Qualification', u'', u'Block', u'', u'Off Type', u'', u'Grp', u'Lecturer(s)', u'2016 Enrol']
+check 'BB Classroom' 'ITS Subject'
+[u'INVD101_YEAR_2018', u'INVD101_YEAR_2017', u'INVD101', u'INTRODUCTION TO VIDEO I', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'11', u'YEAR', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 44.0]
+check 'INVD101_YEAR_2018' 'INVD101'
+adding  INVD101
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/INVD101%25
+r= <Response [200]>
+matching classes= set([u'INVD101_15_LOVR', u'INVD101_YEAR_2018', u'INVD101_YEAR_2016', u'INVD101_YEAR_2017', u'INVD101_13_THOC'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'PRTV101_SEM1_2018', u'PRTV101_SEM1_2017', u'PRTV101', u'PRACTICAL TELEVISION PRODUCTION I', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'21', u'SEMESTER 1', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 33.0]
+check 'PRTV101_SEM1_2018' 'PRTV101'
+adding  PRTV101
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/PRTV101%25
+r= <Response [200]>
+matching classes= set([u'PRTV101_SEM1_2017', u'PRTV101_SEM1_2016', u'PRTV101_13_THOC', u'PRTV101_SEM1_2018'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'TAPD101_SEM1_2018', u'TAPD101_SEM1_2017', u'TAPD101', u'TELEVISION APPRECIATION & DEVELOPMENT I', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'21', u'SEMESTER 1', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 34.0]
+check 'TAPD101_SEM1_2018' 'TAPD101'
+adding  TAPD101
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/TAPD101%25
+r= <Response [200]>
+matching classes= set([u'TAPD101_SEM1_2017', u'TAPD101_SEM1_2016', u'TAPD101_13_THOC', u'TAPD101_SEM1_2018'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'TETN101_YEAR_2018', u'TETN101_YEAR_2017', u'TETN101', u'TELEVISION ELECTRONICS I', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'11', u'YEAR', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 46.0]
+check 'TETN101_YEAR_2018' 'TETN101'
+adding  TETN101
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/TETN101%25
+r= <Response [200]>
+matching classes= set([u'TETN101_YEAR_2016', u'TETN101_YEAR_2017', u'TETN101_13_THOC', u'TETN101_YEAR_2018'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'TPTH101_YEAR_2018', u'TPTH101_YEAR_2017', u'TPTH101', u'TELEVISION PRODUCTION THEORY I', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'11', u'YEAR', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 45.0]
+check 'TPTH101_YEAR_2018' 'TPTH101'
+adding  TPTH101
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/TPTH101%25
+r= <Response [200]>
+matching classes= set([u'TPTH101_15_LOVR', u'TPTH101_YEAR_2017', u'TPTH101_YEAR_2018', u'TPTH101_15_WAAL', u'TPTH101_YEAR_2016', u'TPTH101_12_A', u'TPTH101_13_THOC'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'PRTV201_SEM2_2018', u'PRTV201_SEM2_2017', u'PRTV201', u'PRACTICAL TELEVISION PRODUCTION II', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'22', u'SEMESTER 2', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 30.0]
+check 'PRTV201_SEM2_2018' 'PRTV201'
+adding  PRTV201
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/PRTV201%25
+r= <Response [200]>
+matching classes= set([u'PRTV201_SEM2_2016', u'PRTV201_SEM2_2017', u'PRTV201_13_THOC'])
+ERROR:  Bb classroom PRTV201_SEM2_2018 does not exist 
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'TAPD201_SEM2_2018', u'TAPD201_SEM2_2017', u'TAPD201', u'TELEVISION APPRECIATION & DEVELOPMENT II', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'22', u'SEMESTER 2', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 29.0]
+check 'TAPD201_SEM2_2018' 'TAPD201'
+adding  TAPD201
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/TAPD201%25
+r= <Response [200]>
+matching classes= set([u'TAPD201_13_THOC', u'TAPD201_SEM2_2017', u'TAPD201_SEM2_2016'])
+ERROR:  Bb classroom TAPD201_SEM2_2018 does not exist 
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'TPTH201_SEM1_2018', u'TPTH201_SEM1_2017', u'TPTH201', u'TELEVISION PRODUCTION THEORY II', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'21', u'SEMESTER 1', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 36.0]
+check 'TPTH201_SEM1_2018' 'TPTH201'
+adding  TPTH201
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/TPTH201%25
+r= <Response [200]>
+matching classes= set([u'TPTH201_SEM2_2017', u'TPTH201B_14_BURC', u'TPTH201_13_THOC', u'TPTH201_14_BURC', u'TPTH201_SEM1_2017', u'TPTH201_SEM1_2016', u'TPTH201_15_WAAL', u'TPTH201_SEM1_2018', u'TPTH201_15_LOVR'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'PRTV301_SEM1_2018', u'PRTV301_SEM1_2017', u'PRTV301', u'PRACTICAL TELEVISION PRODUCTION III', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'21', u'SEMESTER 1', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 31.0]
+check 'PRTV301_SEM1_2018' 'PRTV301'
+adding  PRTV301
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/PRTV301%25
+r= <Response [200]>
+matching classes= set([u'PRTV301_SEM1_2016', u'PRTV301_SEM1_2017', u'PRTV301_14_BURC', u'PRTV301_13_THOC', u'PRTV301_SEM1_2018'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'TPTH301_SEM2_2018', u'TPTH301_SEM2_2017', u'TPTH301', u'TELEVISION PRODUCTION THEORY III', u'NDVID2', u'ND: VIDEO TECHNOLOGY', u'22', u'SEMESTER 2', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 28.0]
+check 'TPTH301_SEM2_2018' 'TPTH301'
+adding  TPTH301
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/TPTH301%25
+r= <Response [200]>
+matching classes= set([u'TPTH301_SEM2_2017', u'TPTH301_SEM2_2016', u'TPTH301_14_BURC', u'TPTH301_13_THOC'])
+ERROR:  Bb classroom TPTH301_SEM2_2018 does not exist 
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'PRTV401_YEAR_2018', u'PRTV401_YEAR_2017', u'PRTV401', u'PRACTICAL TELEVISION PRODUCTION IV', u'BTVID1', u'BT:  VIDEO TECHNOLOGY', u'11', u'YEAR', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 10.0]
+check 'PRTV401_YEAR_2018' 'PRTV401'
+adding  PRTV401
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/PRTV401%25
+r= <Response [200]>
+matching classes= set([u'PRTV401_13_BURP', u'PRTV401_YEAR_2018', u'PRTV401_YEAR_2016', u'PRTV401_YEAR_2017', u'PRTV401_14_BURC'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'RMTS401_YEAR_2018', u'RMTS401_YEAR_2017', u'RMTS401', u'RESEARCH METHODS IV', u'BTVID1', u'BT:  VIDEO TECHNOLOGY', u'11', u'YEAR', u'D1', u'Durban Campus Full-time', u'A', u'40013390:PLUG;40012426:COLLINS;50000980:BURNETT', 10.0]
+check 'RMTS401_YEAR_2018' 'RMTS401'
+adding  RMTS401
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/RMTS401%25
+r= <Response [200]>
+matching classes= set([u'RMTS401_YEAR_2016', u'RMTS401_YEAR_2017', u'RMTS401_14_BURC', u'RMTS401_13_BURP', u'RMTS401_YEAR_2018'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'RSHP401_YEAR_2018', u'RSHP401_YEAR_2017', u'RSHP401', u'RESEARCH PROJECT IV', u'BTVID1', u'BT:  VIDEO TECHNOLOGY', u'11', u'YEAR', u'D1', u'Durban Campus Full-time', u'A', u'40013390:PLUG;50000980:BURNETT', 10.0]
+check 'RSHP401_YEAR_2018' 'RSHP401'
+adding  RSHP401
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/RSHP401%25
+r= <Response [200]>
+matching classes= set([u'RSHP401_YEAR_2018', u'RSHP401_14_BURC', u'RSHP401_YEAR_2017', u'RSHP401_13_BURP', u'RSHP401_YEAR_2016'])
+[u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'', u'']
+check '' ''
+[u'TPTH401_YEAR_2018', u'TPTH401_YEAR_2017', u'TPTH401', u'TELEVISION PRODUCTION THEORY IV', u'BTVID1', u'BT:  VIDEO TECHNOLOGY', u'11', u'YEAR', u'D1', u'Durban Campus Full-time', u'A', u'50000980:BURNETT', 10.0]
+check 'TPTH401_YEAR_2018' 'TPTH401'
+adding  TPTH401
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/TPTH401%25
+r= <Response [200]>
+matching classes= set([u'TPTH401_13_RAUM', u'TPTH401_YEAR_2018', u'TPTH401_YEAR_2016', u'TPTH401_YEAR_2017', u'TPTH401_14_BURC'])
+[u'TPTH101', u'TPTH101', u'TPTH101', u'Scriptwriting 1', u'NDVID2', u'ND: Video Technology Year', u'', u'', u'D1', u'Durban Campus - Full time', u'A', 50000980.0, 50.0]
+check 'TPTH101' 'TPTH101'
+adding  TPTH101
+requesting:  http://10.0.100.98:8000/bbinfo/matching_courses/TPTH101%25
+r= <Response [200]>
+matching classes= set([u'TPTH101_15_LOVR', u'TPTH101_YEAR_2017', u'TPTH101_YEAR_2018', u'TPTH101_15_WAAL', u'TPTH101_YEAR_2016', u'TPTH101_12_A', u'TPTH101_13_THOC'])
+ERROR:  Bb classroom TPTH101 does not exist 
+[u'New subjects for 2018', u'TPTH201', u'TPTH201', u'Scriptwriting 2', u'NDVID2', u'ND: Video TechnologySemester', u'', u'', u'D1', u'Durban Campus - full time', u'A', 50000980.0, 35.0]
+check 'New subjects for 2018' 'TPTH201'
+[u'', u'TPTH201', u'TPTH201', u'Editing 2', u'NDVID 2', u'ND; Video Technology', u'', u'Semester', u'D1', u'Durban Campus - Full time', u'A', 50000980.0, 35.0]
+check '' 'TPTH201'
+processXLS: finished processing workingSheets/data/BBC3101VideoTechnology2017.xls
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/PRTV201 rsp= <Response [200]>
+WARN: subject PRTV201 has no students, no Bb classrooms
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/RMTS401 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/RMTS401 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 1, BB 4 -> 0 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/TPTH101 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/TPTH101 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 49, BB 49 -> 1 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/INVD101 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/INVD101 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 48, BB 48 -> 1 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/TPTH201 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/TPTH201 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 39, BB 40 -> 0 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/PRTV301 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/PRTV301 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 35, BB 36 -> 0 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/TETN101 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/TETN101 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 48, BB 48 -> 1 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/TAPD201 rsp= <Response [200]>
+WARN: subject TAPD201 has no students, no Bb classrooms
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/PRTV401 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/PRTV401 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 1, BB 2 -> 0 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/TAPD101 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/TAPD101 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 40, BB 41 -> 0 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/TPTH301 rsp= <Response [200]>
+WARN: subject TPTH301 has no students, no Bb classrooms
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/TPTH401 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/TPTH401 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 1, BB 2 -> 0 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/RSHP401 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/RSHP401 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 1, BB 3 -> 0 new enrollments
+getWS: requesting:  http://10.0.100.98:8000/itsenrol/classlist/2018/PRTV101 rsp= <Response [200]>
+getWS: requesting:  http://10.0.100.98:8000/bbinfo/classlist/PRTV101 rsp= <Response [200]>
+getNewStudentsInSubject: ITS 37, BB 38 -> 0 new enrollments
+main: Writing students...
+main: Writing enrollments...
+main: Finished processing workingSheets/data/BBC3101VideoTechnology2017.xls
+main: 14 subjects processed
+main: 11 subject -> classroom maps
+main: 1 students
+main: 3 student enrollments 3 errors
+ERROR: subject PRTV201 has no students, no Bb classrooms
+ERROR: subject TAPD201 has no students, no Bb classrooms
+ERROR: subject TPTH301 has no students, no Bb classrooms
