@@ -1,0 +1,6 @@
+            bc=str(row[6])
+#            if bc not in ['11','21']:
+#                print "processXLS: skipping SEM2",row
+            if bc not in ['22']:
+                print "processXLS: only for SEM2",row
+            else:
