@@ -74,6 +74,10 @@ def processXLS(fname):
         print "check '%s' '%s'"% (bb_classroom,its_scode)
         if len(its_scode)>5 and bb_classroom.startswith(its_scode):
             bc=str(row[6])
+            #
+            # hacky thing if BC is a float...
+            bc = bc.replace('.0','')
+          
 #            if bc not in ['11','21']:
 #                print "processXLS: skipping SEM2",row
             if bc not in ['22']:
